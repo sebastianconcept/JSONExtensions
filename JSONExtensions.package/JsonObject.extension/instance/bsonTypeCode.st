@@ -1,0 +1,3 @@
+*jsonextensions
+bsonTypeCode
+	^3

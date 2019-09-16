@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "Json",
+	"category" : "JSONExtensions",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "OrderedJson",
+	"type" : "normal"
+}
