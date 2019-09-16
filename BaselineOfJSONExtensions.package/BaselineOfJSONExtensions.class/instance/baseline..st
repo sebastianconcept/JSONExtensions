@@ -16,7 +16,7 @@ baseline: spec
 			spec repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo30/main'].
 		
 		spec
-			package: 'OrderPreservingDictionary'
+			baseline: 'OrderPreservingDictionary' 
 			with: [ spec repository: 'github://pharo-contributions/OrderPreservingDictionary/src' ].
 		
 		spec
