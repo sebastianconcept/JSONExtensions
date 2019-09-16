@@ -17,7 +17,8 @@ baseline: spec
 		
 		spec
 			baseline: 'OrderPreservingDictionary' 
-			with: [ spec repository: 'github://pharo-contributions/OrderPreservingDictionary/src' ].
+			with: [ 
+				spec repository: 'github://pharo-contributions/OrderPreservingDictionary/src'; load ].
 		
 		spec
 			package: 'JSONExtensions'
