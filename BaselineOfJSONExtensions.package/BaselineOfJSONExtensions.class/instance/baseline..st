@@ -6,10 +6,20 @@ baseline: spec
 	| repository | 
 	
 	repository := 'github://sebastianconcept/JSONExtensions'.    
+    
 	
 	spec for: #common do: [
 		spec postLoadDoIt: #'postload:package:'.
-			spec
-				package: 'JSONExtensions'
-				with: [ spec repository: repository ] ]
+		
+		spec configuration: 'JSON' with: [ 
+			spec version: #stable. 
+			spec repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo30/main'].
+		
+		spec
+			package: 'OrderPreservingDictionary'
+			with: [ spec repository: 'github://pharo-contributions/OrderPreservingDictionary/src' ].
+		
+		spec
+			package: 'JSONExtensions'
+			with: [ spec repository: repository ] ]
 			
