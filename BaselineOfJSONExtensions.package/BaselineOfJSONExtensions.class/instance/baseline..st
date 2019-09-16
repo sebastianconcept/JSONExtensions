@@ -16,11 +16,6 @@ baseline: spec
 			spec repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo30/main'].
 		
 		spec
-			baseline: 'OrderPreservingDictionary' 
-			with: [ 
-				spec repository: 'github://pharo-contributions/OrderPreservingDictionary/src'; load ].
-		
-		spec
 			package: 'JSONExtensions'
 			with: [ spec repository: repository ] ]
 			

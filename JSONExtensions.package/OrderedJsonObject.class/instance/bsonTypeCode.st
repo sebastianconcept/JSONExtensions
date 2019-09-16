@@ -1,3 +1,0 @@
-actions
-bsonTypeCode
-	^3

@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "OrderPreservingDictionary",
+	"super" : "OrderedDictionary",
 	"category" : "JSONExtensions",
 	"classinstvars" : [ ],
 	"pools" : [ ],
