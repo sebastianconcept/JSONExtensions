@@ -1,4 +1,0 @@
-actions
-asJsonObject
-
-	^ self
