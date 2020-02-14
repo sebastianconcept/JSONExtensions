@@ -1,7 +1,7 @@
 Class {
 	#name : #BaselineOfJSONExtensions,
 	#superclass : #BaselineOf,
-	#category : 'BaselineOfJSONExtensions'
+	#category : #BaselineOfJSONExtensions
 }
 
 { #category : #baseline }
@@ -18,5 +18,5 @@ BaselineOfJSONExtensions >> json: spec [
 		baseline: 'JSON'
 		with: [ spec
 				loads: #('JSON');
-				repository: 'github://github.com:sebastianconcept/JSON/src' ]
+				repository: 'github://sebastianconcept/JSON/src' ]
 ]
