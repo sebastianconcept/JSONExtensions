@@ -1,5 +1,11 @@
-private
-readDictionary
+Class {
+	#name : #OrderedJson,
+	#superclass : #Json,
+	#category : 'JSONExtensions'
+}
+
+{ #category : #private }
+OrderedJson >> readDictionary [
 	| m k v needComma |
 	m := OrderedJsonObject new.
 	needComma := false.
@@ -18,3 +24,5 @@ readDictionary
 		v := self readAny.
 		m at: k put: v.
 	] repeat.
+
+]
