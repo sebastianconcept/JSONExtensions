@@ -1,7 +1,7 @@
 Class {
 	#name : #OrderedJsonObject,
 	#superclass : #OrderedDictionary,
-	#category : 'JSONExtensions'
+	#category : #JSONExtensions
 }
 
 { #category : #'instance creation' }
@@ -17,7 +17,6 @@ OrderedJsonObject class >> fromAssociations: collectionOfAssociations [
 
 { #category : #actions }
 OrderedJsonObject >> asJsonObject [
-
 	^ self
 ]
 
